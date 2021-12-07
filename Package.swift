@@ -25,7 +25,7 @@ let package = Package(
                 ),*/
         .binaryTarget(
                     name: "TestLibPackage",
-                    path: "Sources/SwiftStaticLib.xcframework"
+                    path: "Sources/MyStaticLib.xcframework"
                 )
     ]
 )
