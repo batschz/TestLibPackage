@@ -5,7 +5,8 @@ import Foundation
 @_exported import FrameworkTest
 import Swift
 import _Concurrency
-@_hasMissingDesignatedInitializers public class Bums {
+public class Bums {
+  public init()
   public func argh()
   @objc deinit
 }
